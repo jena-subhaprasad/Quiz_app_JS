@@ -10,7 +10,14 @@
 }
 html{
    font-size: 62%;
-    
+  
+}
+body{
+    background-image: url(./photo-1537884944318-390069bb8665.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width:100vw;
+    height: 100vh;*/
 }
 li{
     text-decoration: none;
@@ -24,14 +31,14 @@ li{
     align-content:center;
     justify-content: center;
    /* */
-   background-color: bisque;
+   /* background-color: bisque;          */
     
 }
 .inner
 { 
     /* border: solid black; */
     width:40vw;
-    background-color:#fff;
+    background-color:rgba(232, 233, 222, 0.938);
     padding: 3rem 8rem;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
@@ -54,13 +61,13 @@ li{
     justify-content: center;
 }
 .inner li{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 150;
     margin-top: 1.5rem;
     list-style: none;
+    padding: 15px;
 }
-input{
-    cursor: pointer;
-}
+
 
 #submit, .btn
 {
@@ -81,6 +88,13 @@ input{
     background-color: rgb(219, 204, 120);
     cursor: pointer;
 
+}
+input{
+    cursor: pointer;
+    /* background-color: rgb(124, 138, 143); */
+}
+li:hover{
+    background-color: rgb(219, 204, 120);
 }
 
 #result
