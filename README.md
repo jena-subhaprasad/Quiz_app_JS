@@ -1,3 +1,3 @@
 # Quiz_app_JS
-Links-: https://zealous-ritchie-bd041c.netlify.app
+Links-: https://suspicious-goldberg-c52930.netlify.app
 
