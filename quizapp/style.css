@@ -37,7 +37,7 @@ li{
 .inner
 { 
     /* border: solid black; */
-    width:40vw;
+    width:70rem;
     background-color:rgba(232, 233, 222, 0.938);
     padding: 3rem 8rem;
     border-radius: 1rem;
@@ -65,7 +65,7 @@ li{
     font-weight: 150;
     margin-top: 1.5rem;
     list-style: none;
-    padding: 15px;
+    padding: 1.2rem;
 }
 
 
@@ -101,8 +101,8 @@ li:hover{
 {
     background-color: #dfe6e9; 
     margin-top: 3rem; 
-    padding: 3rem 4rem;
-    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+    padding: 2rem 3rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(184, 142, 142, 0.4);
 
     
 }
@@ -110,3 +110,5 @@ li:hover{
 {
      display:none ; 
 }
+
+
