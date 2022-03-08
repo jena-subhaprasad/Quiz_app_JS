@@ -91,6 +91,17 @@ const deselectanswer=()=>{
     answers.forEach((ans)=>(ans.checked=false));
 };
 
+function scoreA(a) {
+  var rem;
+  if (a >= 7) {
+      rem = 'YES';
+  } else if (a <= 6 && a >= 4) {
+      rem = 'MAYBE';
+  } else {
+      rem = 'NO';
+  }
+  return rem;
+}
 
 const loadquestion=()=>{
     deselectanswer();
@@ -136,6 +147,7 @@ submitbtn.addEventListener('click',()=>{
   else{
     showresult.innerHTML=`
     <h2>Your Score is ${score} out of ${quiz_ques.length} &#127881 </h2>
+    <h2>Remarks:${scoreA(score)}</h2>
     <button class="btn" onclick="location.reload()">Play again</button>`;
         
       showresult.classList.remove('resultarea');
